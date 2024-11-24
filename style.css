@@ -1,0 +1,77 @@
+/* GLOBALS */
+.bg-pink {
+  --bs-bg-opacity: 1;
+  background-color: #ff84c2 !important;
+}
+
+.btn-green {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #4bffab;
+  --bs-btn-border-color: #4bffab;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3cd18c;
+  --bs-btn-hover-border-color: #3cd18c;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #3cd18c;
+  --bs-btn-active-border-color: #3cd18c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #4bffab;
+  --bs-btn-disabled-border-color: #4bffab;
+}
+
+.bg-brown {
+  --bs-bg-opacity: 1;
+  background-color: #dba672 !important;
+}
+
+.legal-text {
+  font-size: 12px;
+}
+
+/* CUSTOMS */
+.navbar-brand span {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.card .card-img-top {
+  height: 450px;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-body a.btn {
+  position: absolute;
+  bottom: 10px;
+}
+
+.card .card-body .services-card-subtitle {
+  font-size: 14px;
+}
+
+#questions-section .card {
+  width: 100% !important;
+  height: 230px;
+}
+
+@media (min-width: 768px) {
+  #questions-section .card .card-body {
+    position: relative;
+  }
+  
+  #questions-section .card .card-body .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    padding: 16px;
+    transform: translate(-50%, 0);
+  } 
+}

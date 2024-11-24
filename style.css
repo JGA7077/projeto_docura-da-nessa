@@ -31,11 +31,21 @@
 }
 
 /* CUSTOMS */
+.navbar-brand img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
 .navbar-brand span {
   font-family: "Cookie", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
+  display: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 24px;
 }
 
 .card .card-img-top {
@@ -62,6 +72,11 @@
 }
 
 @media (min-width: 768px) {
+  .navbar-brand span {
+    display: block;
+    font-size: 50px;
+  }
+
   #questions-section .card .card-body {
     position: relative;
   }
